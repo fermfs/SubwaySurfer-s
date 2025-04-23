@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Subway Surfer's</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background-color: #f0f0f0; color: #333; padding: 20px; }
+    nav { background-color: #80d0ff; padding: 15px 20px; text-align: center; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    nav a { margin: 0 15px; text-decoration: none; color: #fff; font-weight: bold; }
+    h1 { text-align: center; margin: 30px 0; }
+    .produtos { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; }
+    .produto { background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; width: 300px; text-align: center; }
+    .produto img { width: 100%; height: auto; border-radius: 8px; }
+    .produto h3 { margin-top: 15px; }
+    .produto p { color: #666; margin: 10px 0; }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 10px 0; }
+      .produtos { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="contato.html">Contato</a>
+    <a href="sobre.html">Sobre Nós</a>
+    <a href="objetivos.html">Objetivos</a>
+  </nav>
+
+  <h1>Nossos Produtos</h1>
+
+  <div class="produtos">
+    <div class="produto">
+      <img src="imagens/download.jpg" alt="Camiseta">
+      <h3>Camiseta Street</h3>
+      <p>R$ 79,90</p>
+      <p>Estilo urbano e tecido confortável.</p>
+    </div>
+    <div class="produto">
+      <img src="imagens/skate2.jpg" alt="Skate">
+      <h3>Skate Profissional</h3>
+      <p>R$ 349,00</p>
+      <p>Madeira canadense com rolamentos ABEC 9.</p>
+    </div>
+    <div class="produto">
+      <img src="imagens/bone.jpg" alt="Boné">
+      <h3>Boné Skate</h3>
+      <p>R$ 59,90</p>
+      <p>Boné estilo trucker com logo da loja.</p>
+    </div>
+  </div>
+</body>
+</html>
